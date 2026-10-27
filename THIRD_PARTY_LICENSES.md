@@ -2,6 +2,10 @@
 
 本文件汇总作品所使用的第三方开源软件、模型、框架、组件与服务的许可证及署名信息，作为《开源及第三方资源使用清单》的补充。完整清单见《开源及第三方资源使用清单.md》。
 
+> **许可边界说明**：仓库根目录 `LICENSE` 为**团队自主代码**所采用的 **Apache License 2.0**；
+> 第三方资源的许可证文本集中存放于 `licenses/`（如 `LICENSE_SAM3.txt`、`LICENSE_MobilenetSSD.txt`），
+> 并在各自所在目录（如 `model_lib/sam3/LICENSE`）保留副本。第三方资源的权利归属不因参赛或开源行为而改变。
+
 ---
 
 ## 一、模型
@@ -9,7 +13,7 @@
 ### 1. SAM 3（Segment Anything Model 3）
 
 - **来源**：Meta（facebookresearch/sam3，huggingface.co/facebook/sam3）
-- **许可证**：SAM License（完整文本见本目录 `LICENSE` 文件）
+- **许可证**：SAM License（完整文本见 `licenses/LICENSE_SAM3.txt`，`model_lib/sam3/LICENSE` 另有副本）
 - **署名**：本作品使用了 Meta 的 SAM 3（Segment Anything Model 3）模型进行图像/视频语义分割。
 - **关键义务**：分发或再分发 SAM Materials 及其衍生作品须附带本许可副本；发表相关研究须注明使用了 SAM Materials；遵守出口管制。
 

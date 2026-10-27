@@ -115,13 +115,15 @@ python eval_kit/compute_metrics.py --records audit_out/records_from_dataset.csv 
 `水槽数据集/` 含四套子集、共 1188 组带人工标注的样本（三类边坡 393 组 + 十五里河 795 组），
 字段说明、采集方式、许可与使用边界见 `水槽数据集/README.md`。
 
-## 开源与第三方资源
+## 开源与第三方资源及许可证
 
 本作品基于以下开源资源构建，来源、版本、许可证与关键义务见：
 
-- `开源及第三方资源使用清单.md`（资源清单，含自研边界与合规状态）
-- `LICENSE`（SAM License 原文）
-- `licenses/LICENSE_MobilenetSSD.txt`（MobileNet-SSD 框架许可）
-- `THIRD_PARTY_LICENSES.md`（第三方许可证汇总与署名）
+- 仓库根目录 `LICENSE`：为**团队自主代码**（cloud/、web/、edge_openmv/、calibration/、eval_kit/ 等）所采用，协议为 **Apache License 2.0**。
+- 第三方资源的许可证原文集中存放于 `licenses/`，并在各自所在目录保留副本：
+  - `licenses/LICENSE_SAM3.txt`（SAM License，亦见 `model_lib/sam3/LICENSE`）
+  - `licenses/LICENSE_MobilenetSSD.txt`（MIT）
+- 汇总与署名见 `THIRD_PARTY_LICENSES.md`，逐条资源与自研边界见 `开源及第三方资源使用清单.md`。
+- 第三方资源的权利归属不因本作品的开源与参赛行为而改变。
 
 SAM3 权重（`sam3.pt`，约 3.4 GB）受 SAM License 约束，**不在本仓库分发**，需使用者自行从官方渠道获取。
