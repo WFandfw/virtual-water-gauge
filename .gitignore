@@ -1,0 +1,20 @@
+# 模型权重：走 Release 附件或 Git LFS，不入普通提交
+*.pth
+*.pt
+# 数据与产物
+input/
+input_video/
+output_video/
+outputs/
+records_filled.csv
+results.csv
+eval_out/
+__pycache__/
+*.pyc
+# 本地凭据
+.env
+cloud/.env
+# 大文件
+*.mp4
+*.docx
+*.pptx

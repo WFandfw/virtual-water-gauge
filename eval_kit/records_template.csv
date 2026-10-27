@@ -1,0 +1,3 @@
+﻿sample_id,site_type,site_name,condition,water_level_true_m,true_source,true_readings,image_file,csv_file,mode,frame_files,waterline_px,water_level_pred_m,abs_err_mm,note
+【示例·勿当实测】S001,混凝土,试验渠-1,正常,1.200,实体水尺人工读数,1.199|1.201|1.200|1.200|1.198|1.201|1.200|1.199|1.200,images/S001.jpg,calibration/3.csv,单帧,,0,0,0,仅演示字段填法，请用真实记录替换整行
+【示例·勿当实测】S002,浆砌石,野外-2,耀斑,3.450,实体水尺人工读数,3.448|3.452|3.450|3.451|3.449|3.450|3.452|3.448|3.450,images/S002.jpg,calibration/3.csv,5帧,S002_f1.jpg;S002_f2.jpg;S002_f3.jpg;S002_f4.jpg;S002_f5.jpg,0,0,0,同上
